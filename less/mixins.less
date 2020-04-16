@@ -10,8 +10,9 @@
         background-color: @eastern-blue;
 }
 
-disjusal(@justify,@align){
-    display:flex;
-    justify-content:@justify;
-    align-items:@align;
+
+.flex-display (@align, @adjust){
+    display: flex;
+    align-items: @align;
+    justify-content:@adjust;
 }
